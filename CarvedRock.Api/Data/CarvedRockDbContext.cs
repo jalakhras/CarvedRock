@@ -10,5 +10,7 @@ namespace CarvedRock.Api.Data
             
         }
         public DbSet<Product> Products { get; set; }
+        public DbSet<ProductReview> ProductReviews { get; set; }
+
     }
 }
